@@ -1,0 +1,115 @@
+
+.panda-nav-wrap{
+    background-color: #FEEAE9;
+}
+.panda-nav-wrap li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    /* margin: 0px 15px; */
+}
+
+
+/* slider style */
+
+.slider-wrap{
+    background-color: #FEEAE9;
+    margin-top: 145px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.slider-wrap img{
+    width: 402px;
+    height: 378px;
+  }
+  .img-fit {
+    object-fit: contain;
+  }
+.slider-title{
+    padding-bottom: 9px;;
+}
+.price{
+    color: #FF136F;
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 10px;
+  }
+.okay-btn{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    padding: 9px 19px;
+    color:white;
+    border-radius:7px;
+    margin-top: 9px;
+}
+
+
+
+/*  categories section */
+.cat-wrap{
+  border-radius:10px;
+}
+.watch-bg{
+  background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+
+}
+.bag-bg{
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.shoes-bg{
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+
+}
+
+
+/* card style */
+.product-wrap{
+  background-color: #F4F4F4;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-wrap{
+  border: none;
+}
+.panda-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-btn{
+  background: #000000;
+  border-radius: 7px;
+  border: none;
+  padding: 9px 19px;
+  color:white;
+  margin-top: 9px;
+}
+.card-btn:hover{
+  background: #ffffff;
+  border: 1px solid black;
+  color:black;
+  transition: 0.2s ease-in-out;
+}
+
+/* contact section */
+
+.contact-wrap{
+  background-color: #FEEAE9;
+  margin-top: 63px;
+  border-radius: 10px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.panda-form{
+  padding: 9px 52px;
+  margin-top: 9px;
+  color: #212529;
+  background-color: #fff;
+  border: 0px solid #ced4da;
+  border-radius: 7px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
